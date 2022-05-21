@@ -1,0 +1,53 @@
+.list {
+    margin-top: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.header {
+    transition: all .3s ease;
+    display: flex;
+    flex-direction: row;
+}
+
+.header:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.count {
+    color: #666666;
+    margin-left: auto;
+    font-size: .876rem;
+}
+
+.selected {
+    border-bottom: 5px solid #eee;
+
+}
+
+.unselected {
+    border-bottom: 1px solid #eee;
+
+}
+
+.delete {
+    margin-top: 5px;
+    border: none;
+    background: #eee;
+    color: #666666;
+    font-weight: 600;
+    padding: 3px;
+    border-radius: 5px;
+    max-width: 25%;
+}
+
+.delete:hover {
+    cursor: pointer;
+}

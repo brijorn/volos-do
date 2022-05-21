@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.browser {
+    display: flex;
+    flex-direction: column;
+}
+.lists {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.create {
+    display: flex;
+    flex-direction: row;
+}
+.input {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-weight: 700;
+    padding: 10px;
+    font-size: .875em;
+    border: 0;
+    box-shadow: 0 10px 25px 10px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    transition: all 0.6s ease;
+}
+
+input:focus {
+    color: white;
+    outline: none;
+    background: #157347;
+}
+.rounded {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #157347;
+    opacity: .7
+        /* Firefox */
+}
+
+.add {
+    padding: 10px;
+    font-weight: 800;
+    border: 0;
+    background: #157347;
+    color: white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    transition: all 0.6s ease;
+    border-left: 1px solid #eee;
+
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.selected {
+    background: #eaeaea
+}
